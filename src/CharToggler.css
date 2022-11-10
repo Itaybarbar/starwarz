@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'SF Distant Galaxy Outline';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Distant Galaxy Outline'), url('DISTANT.TTF') format('truetype');
+}
+
+@font-face {
+    font-family: 'SF Distant Galaxy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Distant Galaxy'), url('DISTANTITALIC.TTF') format('truetype');
+}
+
+.selection {
+    
+    display: flex;
+    justify-content: center;
+    background-color:black;
+    font-size: x-large;
+    font-weight: 700;
+    font-family:'SF Distant Galaxy Outline';
+    color:aqua;
+    z-index: 12;
+
+}
+
+option, select{
+    font-family:'SF Distant Galaxy'; 
+    padding: 2px;
+    text-align: center;
+}
+
+
+
+.selection label {
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 1.4em;  
+}

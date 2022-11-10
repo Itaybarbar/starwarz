@@ -1,0 +1,14 @@
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url(starz_image.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    overflow: hidden;
+}
+
+.fader {
+    background-image: linear-gradient(0deg, transparent, black 92%);
+}

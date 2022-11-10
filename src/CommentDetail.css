@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'SF Distant Galaxy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Distant Galaxy'), url('DISTANTITALIC.TTF') format('truetype');
+}
+
+.content {
+    margin-left: 5%;
+    display: flex;
+    width: 100vw;
+    text-align: center;
+}
+
+.content * {
+    font-family: 'SF Distant Galaxy';
+    letter-spacing: 0.07em;
+}
+
+.content h1 {
+    background: linear-gradient(to right, gold 25%, goldenrod, rgb(224,110,0) 65%);
+    text-align: center;
+    -webkit-text-stroke: 0.5px black;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.avatarpic {
+    width: 240px;
+    border-image: linear-gradient(#f6b73c, #4d9f0c) 1;
+    border-width: 4px;
+    border-style: solid;
+}
+
+.stats { 
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 400px;
+    padding: 3px;
+    perspective: 400px;
+    color: #e9ca15;
+    width: 100%;
+    font-size: 400%;
+    font-weight: 500;
+    letter-spacing: 6px;
+    line-height: 150%;
+    text-align: justify;
+    
+}
+
+.stats span {
+    float:right;
+}
+
+.stats p{
+    width: 100vw;
+}
+
+.stats p:first-child {
+    text-align: center;
+}
+
+.crawl{
+    position: relative;
+    margin-right: 30%;
+    top: 9999px;
+    transform-origin: 50% 100%;
+    animation: crawl 20s infinite;
+}
+
+.fade {
+    position: relative;
+    width: 100vw;
+    min-height: 60vh;
+    z-index: 1;
+}
+
+.section1 {
+    width: 25vw;
+}
+
+.section2 {
+    width: 75vw;
+    z-index: -1;
+}
+
+@keyframes crawl {
+    0% {
+        top:0;
+        transform: rotateX(20deg) translateZ(0);
+    }
+
+    100%{
+        top: -6000px;
+        transform: rotateX(25deg) translateZ(-2500px);
+        
+    }
+    
+}
