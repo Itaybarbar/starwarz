@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/starwarz/static/css/main.e764c472.css",
+    "main.js": "/starwarz/static/js/main.34152e2c.js",
+    "static/media/starz_image.jpg": "/starwarz/static/media/starz_image.810dc8f7ea28730275a2.jpg",
+    "static/media/DISTANT.TTF": "/starwarz/static/media/DISTANT.2bf56be1c11b9d9ab32a.TTF",
+    "static/media/DISTANTITALIC.TTF": "/starwarz/static/media/DISTANTITALIC.7bf72bad6dbf62294121.TTF",
+    "index.html": "/starwarz/index.html",
+    "main.e764c472.css.map": "/starwarz/static/css/main.e764c472.css.map",
+    "main.34152e2c.js.map": "/starwarz/static/js/main.34152e2c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e764c472.css",
+    "static/js/main.34152e2c.js"
+  ]
+}
