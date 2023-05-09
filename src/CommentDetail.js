@@ -8,8 +8,10 @@ const CommentDetail = ({name, height, weight, hair, skin, eyes, year, gender}) =
           <div className='section1'>
             <div>
               <h1>{name.replaceAll(' ','_')}</h1>
-              <img className='avatarpic' src={'./images/' + name.replaceAll(' ','_').toLowerCase() + '.jpg'} alt={name + ' image'}/>
-              {console.log(process.env.PUBLIC_URL)}
+              <img className='avatarpic' 
+                   src={require('./images/' + name.replaceAll(' ','_').toLowerCase() + '.jpg')} 
+                   alt={name + ' image'}
+              />
             </div>
             <button className='pic_link'>
               <a href={'https://www.google.com/search?q=' + name + '=image'}  target="_blank" rel="noreferrer">

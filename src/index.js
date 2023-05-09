@@ -8,7 +8,7 @@ const App = () => {
   
 
     return (
-        <div class='fader'>
+        <div className='fader'>
             <CharToggler/>
         </div>
     );
